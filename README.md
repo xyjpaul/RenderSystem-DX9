@@ -4,6 +4,6 @@ RenderSystem-DX9
 A micro rendersystem based on DX9 just for fun.
 
 ================
-¶ÔD3D½øÐÐÁËÒ»Ð©¼òÒ×µÄ·â×°£¬×îÖÕÄ¿µÄÊÇÒªÍê³ÉÒ»Ì×äÖÈ¾ÒýÇæ£¬ÓÃÍ¾ÊÇÎªÁË×Ô¼ºµÄDX9ÏîÄ¿£¬Ò²ÊÇÒ»ÖÖÀÖÈ¤°É¡£ÏÖÔÚÖ»ÊÇÊµÏÖÁËXÎÄ¼þ¼ÓÔØ£¬ÄÜÓÃ¸öºÜÊºµÄÉãÏñ»ú£¬¸÷ÖÖ³¡¾°¹ÜÀíÆ÷£¬¸÷ÖÖ×ÊÔ´¹ÜÀíÆ÷¶¼ÊÇÃÎÖÐµÄÊÂÇéÁË... 
-ÔÚinterface.hÀïÃæ¸ø³öÁË½Ó¿Ú¡£
+å¯¹D3Dè¿›è¡Œäº†ä¸€äº›ç®€æ˜“çš„å°è£…ï¼Œæœ€ç»ˆç›®çš„æ˜¯è¦å®Œæˆä¸€å¥—æ¸²æŸ“å¼•æ“Žï¼Œç”¨é€”æ˜¯ä¸ºäº†è‡ªå·±çš„DX9é¡¹ç›®ï¼Œä¹Ÿæ˜¯ä¸€ç§ä¹è¶£å§ã€‚çŽ°åœ¨åªæ˜¯å®žçŽ°äº†Xæ–‡ä»¶åŠ è½½ï¼Œä¸‹ä¸€é˜¶æ®µå°†æ”¹è¿›æ‘„åƒæœºï¼ŒåŠ å…¥å…«å‰æ ‘åœºæ™¯ç®¡ç†å™¨ï¼Œèµ„æºç®¡ç†å™¨å¾…å®š
+åœ¨interface.hé‡Œé¢ç»™å‡ºäº†æŽ¥å£ã€‚
 
