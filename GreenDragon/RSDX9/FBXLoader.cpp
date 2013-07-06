@@ -306,6 +306,10 @@ void CFBXLoader::GetUVs(KFbxMesh* pMesh)
 						for(int i = 0;i < uvElement->GetIndexArray().GetCount();i++)
 						{													
 							ei = uvElement->GetIndexArray().GetAt(i);
+							if(ei >= m_ControlVertexCount)
+							{
+								continue;
+							}
 							uv = uvElement->GetDirectArray().GetAt(ei);
 							m_pVertexBuffer[ei]._u = (float)uv.mData[0];
 							m_pVertexBuffer[ei]._v = 1 - (float)uv.mData[1];								
@@ -347,7 +351,7 @@ void CFBXLoader::GetFileName(char* pFileName)
 	ofn.nFilterIndex    = 1;
 	ofn.lpstrInitialDir = NULL;
 	ofn.Flags           = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
-	GetOpenFileName(&ofn);  //ÏÔÊ¾ÎÄ¼þÑ¡Ôñ¿ò
+	GetOpenFileName(&ofn);  //ï¿½ï¿½Ê¾ï¿½Ä¼ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½
 }
 
 void CFBXLoader::GetFbxVerticesInfo(void** v)
